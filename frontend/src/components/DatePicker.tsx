@@ -30,7 +30,7 @@ export default function DatePicker() {
         <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
           {!showFoodPicker ? (
             <>
-              <Typography mb={2}>okay pookie wann?</Typography>
+              <Typography mb={2} variant="h6" >okay pookie wann?</Typography>
               <MUIDatePicker
                 label="Wähl ein Datum Pookie"
                 value={selectedDate}

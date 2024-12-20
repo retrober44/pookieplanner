@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import bild from './../src/img-background/3.png';
+import bild from './../src/img-background/1.svg';
 
 const rootElement = document.getElementById('root');
 if (rootElement) {

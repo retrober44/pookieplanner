@@ -32,10 +32,10 @@ export default function HappyCat () {
         <React.Fragment>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
             <Box mt={2}>
-             <Typography mb={2}> yippieeeeeeeeeeeeeeeeeee </Typography>
+             <Typography mb={2} variant="h6"> yippieeeeeeeeeeeeeeeeeee </Typography>
             </Box>
             <Box mt={2}>
-                <img src={catHappy} alt="Happy GIF" width="300" />
+                <img src={catHappy} alt="Happy GIF" width="400" />
             </Box>
             <Box mt={2}>
                 <ColorButton variant="contained" onClick={handleShowDatePicker}> click me pookie </ColorButton>
