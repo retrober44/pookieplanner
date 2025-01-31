@@ -47,7 +47,7 @@ export default function LandingPage () {
             closeSadness={closeSadness}
           /> 
 
-          <Typography mb={2} variant="h6"> do u want to 2 go on a date with me pookie? .,. </Typography>
+          <Typography mb={2} variant="h6"> do u want to 2 go on a date with me pookie? </Typography>
           <Box display="flex" gap={2} mb={2}>
             <ColorButton variant="contained" onClick={handleShowHappyCat}> Yes </ColorButton>
             <ColorButton variant="contained" onClick={handleShowHappyCat}> Yes </ColorButton>

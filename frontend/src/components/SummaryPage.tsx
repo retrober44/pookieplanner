@@ -60,7 +60,7 @@ export default function SummaryPage(props: SummaryPageProps) {
       >
         <Typography variant="h6">Datebestätigung</Typography>
         <Typography>Jetzt musst du den Termin noch bestätigen Pookie :3</Typography>
-        <img src={catKiss} alt="Kiss GIF" width="500" />
+        <img src={catKiss} alt="Kiss GIF" width="700" />
         <ColorButton onClick={sendEmail}>Date bestätigen</ColorButton>
       </Box>
     </React.Fragment>
