@@ -29,18 +29,6 @@ export default function ActivityPicker(props: ActivityPickerProps) {
   }));
 
   const activityOptions = [
-    { name: 'Bowling', img: 'bowling.jpg' },
-    { name: 'Spazieren', img: 'spazieren.jpg' },
-    { name: 'Wandern', img: 'wandern.jpg' },
-    { name: 'Joggen', img: 'joggen.jpg' },
-    { name: 'Fahrrad fahren', img: 'rad.jpg' },
-    { name: 'Dart', img: 'dart.jpg' },
-    { name: 'Switch', img: 'switch.jpg' },
-    { name: 'Filmabend', img: 'filmabend.jpg' },
-    { name: 'Kino', img: 'kino.jpg' },
-    { name: 'Billard', img: 'billard.jpg' },
-    { name: 'Gym', img: 'gym.jpg' },
-    { name: 'Gesellschaftsspiele', img: 'geschellschaftsspiele.jpg' },
     { name: '***', img: 'zwinkern.jpg' }
   ];
 
@@ -57,7 +45,7 @@ export default function ActivityPicker(props: ActivityPickerProps) {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
-      <Typography variant="h6">Und was machen wir danach, Pookie?</Typography>
+      <Typography variant="h5">Und was machen wir danach, Pookie? &#128586; &#128585;  &#x1F649;</Typography>
       <Box display="flex" flexWrap="wrap" justifyContent="center" gap={2}>
         {activityOptions.map((activity) => (
           <Box

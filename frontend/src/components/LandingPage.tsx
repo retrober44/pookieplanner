@@ -6,9 +6,9 @@ import {
 import Button, { ButtonProps } from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import { pink } from '@mui/material/colors';
-import catBegs from "../gifs/cat_begs.gif"
 import SadCat from './SadCat';
 import HappyCat from './HappyCat';
+import catValentine from "../gifs/cat_valentine.gif"
 
 export default function LandingPage () {
   const [showHappyCat, setShowHappyCat] = React.useState<boolean>(false);
@@ -47,14 +47,14 @@ export default function LandingPage () {
             closeSadness={closeSadness}
           /> 
 
-          <Typography mb={2} variant="h6"> do u want to 2 go on a date with me pookie? </Typography>
+          <Typography mb={2} variant="h4"> do u want to 2 be my valentine pookie? &#128519;&#128519; </Typography>
           <Box display="flex" gap={2} mb={2}>
+            <ColorButton size='large' variant="contained" onClick={handleShowHappyCat}> Yes </ColorButton>
             <ColorButton variant="contained" onClick={handleShowHappyCat}> Yes </ColorButton>
-            <ColorButton variant="contained" onClick={handleShowHappyCat}> Yes </ColorButton>
-            <ColorButton variant="contained" onClick={handleShowSadCat}> No :( </ColorButton>
+            <ColorButton variant="contained" onClick={handleShowHappyCat}>Yes </ColorButton>
           </Box>
           <Box mt={2}>
-            <img src={catBegs} alt="Funny GIF" width="600" />
+            <img src={catValentine} alt="Funny GIF" width="800" />
           </Box>
         </React.Fragment>
       )}

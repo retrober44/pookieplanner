@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import emailjs from 'emailjs-com';
-import catKiss from "../gifs/cat_kiss.webp";
+import catKiss from "../gifs/cat_kiss3.gif";
 import Button, { ButtonProps } from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import { pink } from '@mui/material/colors';
@@ -35,6 +35,7 @@ export default function SummaryPage(props: SummaryPageProps) {
       selectedDessert: props.selectedDessert,
       selectedActivity: props.selectedActivity,
       ccmail: "rober.koeten@web.de",
+      // mail: "rober.koeten@web.de"
       mail: "nergizmarxl@gmail.com"
     };
 
@@ -58,9 +59,9 @@ export default function SummaryPage(props: SummaryPageProps) {
         minHeight="100vh"
         gap={2}
       >
-        <Typography variant="h6">Datebestätigung</Typography>
-        <Typography>Jetzt musst du den Termin noch bestätigen Pookie :3</Typography>
-        <img src={catKiss} alt="Kiss GIF" width="700" />
+        <Typography variant="h4">Datebestätigung</Typography>
+        <Typography variant="h5">Bestätige jetzt &#128573;&#128573;&#128573;</Typography>
+        <img src={catKiss} alt="Kiss GIF" width="500" />
         <ColorButton onClick={sendEmail}>Date bestätigen</ColorButton>
       </Box>
     </React.Fragment>

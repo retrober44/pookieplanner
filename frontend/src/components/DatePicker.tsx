@@ -14,7 +14,7 @@ import { format, isValid } from 'date-fns';
 import FoodPicker from './FoodPicker';
 
 export default function DatePicker() {
-    const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+   const [selectedDate, setSelectedDate] = useState<Date | null>(new Date(2025, 1, 14));
     const [showFoodPicker, setShowFoodPicker] = useState(false);
 
     const ColorButton = styled(Button)<ButtonProps>(({ theme }) => ({
@@ -30,7 +30,7 @@ export default function DatePicker() {
         <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
           {!showFoodPicker ? (
             <>
-              <Typography mb={2} variant="h6" >okay pookie wann?</Typography>
+              <Typography mb={2} variant="h5" >Das Datum kennen wir ja bereits &#128527;&#x1F60F; </Typography>
               <MUIDatePicker
                 label="Wähl ein Datum Pookie"
                 value={selectedDate}

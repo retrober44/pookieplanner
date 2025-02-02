@@ -46,7 +46,7 @@ export default function DessertPicker(props: DessertPickerProps) {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
-      <Typography variant="h6"> Nachtisch? </Typography>
+      <Typography variant="h5"> Was süßes? &#128572; </Typography>
       <Box display="flex" flexWrap="wrap" justifyContent="center" gap={2}>
         {dessertOptions.map((dessert) => (
           <Box

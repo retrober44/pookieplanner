@@ -35,7 +35,13 @@ export default function FoodPicker(props: FoodPickerProps) {
     { name: 'Asiatisch', img: 'asiatisch.jpg' },
     { name: 'Indisch', img: 'indisch.jpg' },
     { name: 'Mexikanisch', img: 'mexikanisch.jpg' },
-    { name: 'Bowl', img: 'bowl.jpg' }
+    { name: 'Bowl', img: 'bowl.jpg' },
+    { name: 'Tapas', img: 'tapas.jpg' },
+    { name: 'Deutsch', img: 'deutsch.jpg' },
+    { name: 'Türkisch', img: 'tuerkisch.jpg' },
+    { name: 'Persisch', img: 'persisch.jpg' },
+
+
   ];
 
   if (showDessertPicker) {
@@ -44,7 +50,7 @@ export default function FoodPicker(props: FoodPickerProps) {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
-      <Typography variant="h6"> Was willst du essen pookie?</Typography>
+      <Typography variant="h5"> Was gibs zu futtern?  &#128523;</Typography>
       <Box display="flex" flexWrap="wrap" justifyContent="center" gap={2}>
         {foodOptions.map((food) => (
           <Box

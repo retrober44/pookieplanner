@@ -6,7 +6,7 @@ import {
 import Button, { ButtonProps } from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import { pink } from '@mui/material/colors';
-import catHappy from "../gifs/cat_happy.gif"
+import catHappy2 from "../gifs/cat_happy2.gif"
 import DatePicker from './DatePicker';
 
 export default function HappyCat () {
@@ -32,10 +32,10 @@ export default function HappyCat () {
         <React.Fragment>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" gap={2}>
             <Box mt={2}>
-             <Typography mb={2} variant="h6"> yippieeeeeeeeeeeeeeeeeee </Typography>
+             <Typography mb={2} variant="h4"> Wusst ichs doch, dass du willst. yuuhuuuuuuu &#128525; </Typography>
             </Box>
             <Box mt={2}>
-                <img src={catHappy} alt="Happy GIF" width="400" />
+                <img src={catHappy2} alt="Happy GIF" width="500" />
             </Box>
             <Box mt={2}>
                 <ColorButton variant="contained" onClick={handleShowDatePicker}> click me pookie </ColorButton>
