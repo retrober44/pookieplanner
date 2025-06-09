@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pookieplanner/static/css/main.f855e6bc.css",
+    "main.js": "/pookieplanner/static/js/main.6b89aa28.js",
+    "static/js/453.d855a71b.chunk.js": "/pookieplanner/static/js/453.d855a71b.chunk.js",
+    "static/media/cat_begs.gif": "/pookieplanner/static/media/cat_begs.637ff04cb361c5710b4c.gif",
+    "static/media/cat_happy.gif": "/pookieplanner/static/media/cat_happy.b828cd50740b1e227d08.gif",
+    "static/media/cat_depressed.webp": "/pookieplanner/static/media/cat_depressed.4edfaae10a02b8852468.webp",
+    "static/media/cat_kiss.webp": "/pookieplanner/static/media/cat_kiss.2ecd9f75d1c3bf258fba.webp",
+    "static/media/cat_sad.webp": "/pookieplanner/static/media/cat_sad.e9ffd2704b21f1652631.webp",
+    "static/media/1.svg": "/pookieplanner/static/media/1.12d63dc4815a48778856b410f038fd1f.svg",
+    "index.html": "/pookieplanner/index.html",
+    "main.f855e6bc.css.map": "/pookieplanner/static/css/main.f855e6bc.css.map",
+    "main.6b89aa28.js.map": "/pookieplanner/static/js/main.6b89aa28.js.map",
+    "453.d855a71b.chunk.js.map": "/pookieplanner/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6b89aa28.js"
+  ]
+}
