@@ -38,7 +38,12 @@ export default function SummaryPage(props: SummaryPageProps) {
       mail: "nergizmarxl@gmail.com"
     };
 
-    emailjs.send('service_eh1mglm', 'template_m3wrqcs', templateParams, 'FInJyJGHxrXxvXQHR')
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
+      templateParams,
+      process.env.REACT_APP_EMAILJS_USER_ID!
+    )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Email wurde gesendet pookie!');

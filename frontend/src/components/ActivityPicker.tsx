@@ -41,7 +41,7 @@ export default function ActivityPicker(props: ActivityPickerProps) {
     { name: 'Billard', img: 'billard.jpg' },
     { name: 'Gym', img: 'gym.jpg' },
     { name: 'Gesellschaftsspiele', img: 'geschellschaftsspiele.jpg' },
-    { name: '***', img: 'zwinkern.jpg' }
+    // { name: '***', img: 'zwinkern.jpg' }
   ];
 
   if (showNextComponent) {
