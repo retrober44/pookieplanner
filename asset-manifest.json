@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pookieplanner/static/css/main.f855e6bc.css",
-    "main.js": "/pookieplanner/static/js/main.e86eb820.js",
+    "main.js": "/pookieplanner/static/js/main.b420d1e2.js",
     "static/js/453.d855a71b.chunk.js": "/pookieplanner/static/js/453.d855a71b.chunk.js",
     "static/media/cat_begs.gif": "/pookieplanner/static/media/cat_begs.637ff04cb361c5710b4c.gif",
     "static/media/cat_happy.gif": "/pookieplanner/static/media/cat_happy.b828cd50740b1e227d08.gif",
@@ -11,11 +11,11 @@
     "static/media/1.svg": "/pookieplanner/static/media/1.12d63dc4815a48778856b410f038fd1f.svg",
     "index.html": "/pookieplanner/index.html",
     "main.f855e6bc.css.map": "/pookieplanner/static/css/main.f855e6bc.css.map",
-    "main.e86eb820.js.map": "/pookieplanner/static/js/main.e86eb820.js.map",
+    "main.b420d1e2.js.map": "/pookieplanner/static/js/main.b420d1e2.js.map",
     "453.d855a71b.chunk.js.map": "/pookieplanner/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.e86eb820.js"
+    "static/js/main.b420d1e2.js"
   ]
 }
